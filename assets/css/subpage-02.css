@@ -1,0 +1,17 @@
+/* Cube 2 content images; scoped to product-02 only. */
+.sub-product-02 .sub-title-wrap img{width:200px;height:auto;object-fit:contain;max-width:100%;}
+.sub-product-02 .sub-visual{height:auto;aspect-ratio:1920/484;}
+.sub-product-02 .sub-visual img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;}
+.sub-product-02 .about-image{height:auto;aspect-ratio:660/690;overflow:hidden;max-height:none;}
+.sub-product-02 .about-image img{display:block;width:100%;height:100%;object-fit:cover;}
+.sub-product-02 .shop-image{position:relative;overflow:hidden;background:transparent;}
+.sub-product-02 .shop-image img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;transition:opacity .25s ease;}
+.sub-product-02 .shop-image-hover{opacity:0;}
+@media(hover:hover){.sub-product-02 .shop-image:hover .shop-image-hover{opacity:1;}}
+.sub-product-02 .shop-card:focus-within .shop-image-hover{opacity:1;}
+.sub-product-02 .sub-shop{min-height:0;}
+@media(max-width:760px){.sub-product-02 .shop-grid{grid-template-columns:1fr;}}
+@media(prefers-reduced-motion:reduce){.sub-product-02 .shop-image img{transition:none;}}
+
+/* Decorative bubbles keep their original aspect ratio at every viewport. */
+.sub-product-02 .sub-shop .bubble{width:250px;height:auto;max-width:none;}

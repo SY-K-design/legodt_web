@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="kim so yeon">
+  <title>LEGODT 3D CUBE AD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="LEGODT home"><img src="assets/images/LEGODT_logo.svg" alt="LEGODT"></a>
+      <nav class="topnav" aria-label="주요 메뉴">
+        <a class="active" href="index.html">HOME</a>
+        <a href="#product">PRODUCT</a>
+        <a href="#story">STORY</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+      <div class="header-tools" aria-label="빠른 메뉴">
+        <a class="icon-btn" href="#" aria-label="검색">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 5 5"/></svg>
+        </a>
+        <a class="icon-btn" href="#" aria-label="장바구니">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 7.5h13l1 13h-15l1-13Z"/><path d="M9 8V5.7a3 3 0 0 1 6 0V8"/></svg>
+        </a>
+        <a class="icon-btn menu-btn" href="#" aria-label="사이트맵"><span></span><span></span><span></span></a>
+      </div>
+    </div>
+  </header>
+
+  <button class="scroll-top-btn" type="button" aria-label="맨 위로 이동"><img src="assets/images/scroll_top.svg" alt=""></button>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="hero-desc">투명하게 만나는 새로운 루프 텀블러</p>
+        </div>
+
+        <div class="cube-zone" id="cube">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front"><a href="products/product-01.html" target="_blank"><img src="assets/images/cube-01.png" alt="Face 1 product"><span class="face-number">1.</span><span class="face-campaign">CLEARLY, LOOP</span></a></div>
+              <div class="face right"><a href="products/product-02.html" target="_blank"><img src="assets/images/cube-02.png" alt="Face 2 product"><span class="face-number">2.</span><span class="face-campaign">Tiny Loop, Big Play</span></a></div>
+              <div class="face back"><a href="products/product-03.html" target="_blank"><img src="assets/images/cube-03.png" alt="Face 3 product"><span class="face-number">3.</span><span class="face-campaign">Catch Your Summer</span></a></div>
+              <div class="face left"><a href="products/product-04.html" target="_blank"><img src="assets/images/cube-04.png" alt="Face 4 product"><span class="face-number">4.</span><span class="face-campaign">Playful Modular Life</span></a></div>
+              <div class="face top"><a href="products/product-05.html" target="_blank"><img src="assets/images/cube-05.png" alt="Face 5 product"><span class="face-number">5.</span><span class="face-campaign">Play My Way</span></a></div>
+              <div class="face bottom"><a href="products/product-06.html" target="_blank"><img src="assets/images/cube-06.png" alt="Face 6 product"><span class="face-number">6.</span><span class="face-campaign">Brighten Up Summer</span></a></div>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="hero-title"><span>MAKE</span><span>DAILY FUN</span></h1>
+
+        <div class="controls" aria-label="큐브 면 선택">
+          <button class="face-btn" type="button">1</button><button class="face-btn" type="button">2</button><button class="face-btn" type="button">3</button><button class="face-btn" type="button">4</button><button class="face-btn" type="button">5</button><button class="face-btn" type="button">6</button>
+        </div>
+        <p class="status" aria-live="polite"></p>
+      </div>
+    </section>
+    <section class="product-section" id="product" aria-label="Product showcase">
+      <div class="product-slides" aria-hidden="true">
+        <div class="product-slide active" style="background-image:url('assets/images/slide-1.png')"></div>
+        <div class="product-slide" style="background-image:url('assets/images/slide-2.webp')"></div>
+        <div class="product-slide" style="background-image:url('assets/images/slide-3.png')"></div>
+      </div>
+      <div class="product-overlay"></div>
+      <div class="product-inner">
+        <div class="product-copy">
+          <p class="product-kicker">PRODUCT</p>
+          <h2 class="product-title">MAKE YOUR <span class="own-wrap"><img src="assets/images/section2_icon.png" alt="" class="own-icon"><span>OWN</span></span></h2>
+          <p class="product-desc">#내꾸텀꾸 나만의 텀블러를 만들어보세요.</p>
+          <a href="#" class="more-btn">More</a>
+          <div class="slide-pagination" aria-label="배경 슬라이드 선택">
+            <button class="slide-dot active" type="button" aria-label="슬라이드 1"></button>
+            <button class="slide-dot" type="button" aria-label="슬라이드 2"></button>
+            <button class="slide-dot" type="button" aria-label="슬라이드 3"></button>
+          </div>
+        </div>
+        <div class="product-icons" aria-label="제품 카테고리">
+          <a href="#" class="product-icon tumbler" data-off="assets/images/Tumbler_off.png" data-hover="assets/images/Tumbler_h.png"><img src="assets/images/Tumbler_off.png" alt="Tumbler"></a>
+          <a href="#" class="product-icon bag" data-off="assets/images/Bag_off.png" data-hover="assets/images/Bag_h.png"><img src="assets/images/Bag_off.png" alt="Bag"></a>
+          <a href="#" class="product-icon travel" data-off="assets/images/Travel_off.png" data-hover="assets/images/Travel_h.png"><img src="assets/images/Travel_off.png" alt="Travel"></a>
+          <a href="#" class="product-icon life" data-off="assets/images/Life_off.png" data-hover="assets/images/Life_h.png"><img src="assets/images/Life_off.png" alt="Life"></a>
+          <a href="#" class="product-icon acc" data-off="assets/images/Acc_off.png" data-hover="assets/images/Acc_h.png"><img src="assets/images/Acc_off.png" alt="Acc"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section" id="story" aria-label="Story">
+      <div class="story-inner">
+        <div class="story-copy">
+          <p class="story-kicker">STORY</p>
+          <h2 class="story-title">COLOR YOUR<br>CHOICE</h2>
+          <p class="story-desc">다양한 색감과 디자인으로 나만의 개성을 표현해보세요.<br>레고트는 다양한 소재와 카테고리를 넘나들며<br>FUNctional이라는 브랜드의 가치를 일상에 전합니다.<br><br>일상의 지루함을 잊게 해 줄 직관적이고 다채로운 디자인,<br>여기에 위트까지 더한 제품으로 당신의 하루를 채워보세요.</p>
+          <a href="#" class="more-btn story-more">More</a>
+        </div>
+        <div class="story-stack-wrap">
+          <div class="story-stack">
+            <figure class="story-card"><img src="assets/images/story-01.png" alt="레이지선데이 스프볼"></figure>
+            <figure class="story-card"><img src="assets/images/story-02.png" alt="레이지선데이 파스타볼"></figure>
+            <figure class="story-card"><img src="assets/images/story-03.png" alt="레이지선데이 미니볼"></figure>
+            <figure class="story-card portrait"><img src="assets/images/story-04.png" alt="레고트의 시그니처 아이템 1"></figure>
+            <figure class="story-card portrait"><img src="assets/images/story-05.png" alt="레고트의 시그니처 아이템 2"></figure>
+          </div>
+          <p class="story-product-name"><span>레이지선데이 스프볼</span> <b>&gt;</b></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-label="Contact">
+      <div class="pastel pastel-1"></div><div class="pastel pastel-2"></div><div class="pastel pastel-3"></div><div class="pastel pastel-4"></div>
+      <div class="contact-inner">
+        <h2>@legodt.official</h2>
+        <p>Be Part of the Fun, Stay Tuned for More Inspiration</p>
+        <a href="#" class="more-btn contact-more">Follow us</a>
+      </div>
+      <footer class="site-footer"><img src="assets/images/LEGODT_logo.svg" alt="LEGODT"><p>COPYRIGHTⓒ LEGODT. ALL RIGHTS RESERVED.</p></footer>
+    </section>
+  </main>
+  <a class="bottom-banner" href="#">
+    <span>TUMGGU : 하나뿐인 나만의 텀블러 만들기 ↗</span>
+  </a>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
